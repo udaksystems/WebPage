@@ -105,13 +105,37 @@ textarea {
     float: right;
 }
 
+.menu {
+    font-family: 'KoHo', sans-serif;
+    color: white;
+    margin-top: 4em;
+}
+li {
+    display: inline;
+    padding: 10px;
+    font-weight: bolder;
+    margin-right: 40px;
+}
+li:hover {
+    color: #CC66A1; 
+    cursor: pointer;
+}
+.welcome-scrn{
+    width:100%;
+    height:900px;
+    background-size: cover; 
+    background-image: url('../img/welcomebg.jpg'); 
+    background-attachment: fixed;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    position: absolute;
 
-
-
-
-
-
-
+}
+.welcome-text{
+    font-family: 'KoHo', sans-serif;
+    color: white;
+    font-size: 32px;
+}
 
 
 
