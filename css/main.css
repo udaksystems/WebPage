@@ -125,16 +125,17 @@ li:hover {
     height:900px;
     background-size: cover; 
     background-image: url('../img/welcomebg.jpg'); 
-    background-attachment: fixed;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
-    position: absolute;
+
 
 }
 .welcome-text{
-    font-family: 'KoHo', sans-serif;
+    font-family: 'Comfortaa', cursive;
     color: white;
     font-size: 32px;
+    overflow: hidden;
+    padding: 120px 40px 20px 50px;
 }
 
 
